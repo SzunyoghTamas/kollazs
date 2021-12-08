@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+   
+}
+  a {
+    text-decoration: none;
+    color: orange;
+  }
+  button {
+    border-radius: 5px;
+    background-color: black;
+    font-size: large;
+
+  }
+ol,ul,li {
+    text-align: center;
+}

@@ -1,17 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
 body {
     text-align: center;
    background-color: paleturquoise;
+}
+
+p {
+  font-family: 'Architects Daughter', cursive;
 }
   a {
     text-decoration: none;
     color: orange;
   }
-  button {
-    border-radius: 5px;
-    background-color: black;
-    font-size: large;
 
-  }
+table { 
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
 ol,ul,li {
     text-align: center;
 }
@@ -21,7 +32,8 @@ padding: 0;
 width: 200px;
 background: #f1f1f1;
 height: 100%;
-overflow :auto;
+font-family: 'Bebas Neue', cursive;
+
 }
 
 .sidebar a {
@@ -34,11 +46,13 @@ overflow :auto;
 .sidebar a.active {
   background-color: #04aa6d;
   color: white;
+  
 }
 
 .sidebar a:hover:not(.active) {
   background: #555555;
   color: white;
+ 
 }
 div.content {
   margin-left: 200px;
@@ -62,4 +76,5 @@ div.content {
     text-align: center;
     float: none;
   }
+  
 }

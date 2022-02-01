@@ -2,78 +2,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mochiy Pop P One', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blueviolet;
+   color: white;
+   text-align: center;
 }
 
-body {
-    text-align: center;
-   background-color: paleturquoise;
+h1{
+  font-family: 'Island Moments', cursive;
+  font-size: 80px;
+  color: blueviolet;
 }
 
-p {
-  font-family: 'Architects Daughter', cursive;
+h2{
+  color: green;
 }
-  a {
-    text-decoration: none;
-    color: orange;
-  }
 
-table { 
-  font-family: 'Architects Daughter', cursive;
-  text-align: center;
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
 }
-ol,ul,li {
-    text-align: center;
+button{
+    border-radius: 25px;
+    background-color: darkcyan;
+}
+a{
+  color: aqua;
+  text-decoration: none;
 }
 .sidebar {
-margin: 0;
-padding: 0;
-width: 200px;
-background: #f1f1f1;
-height: 100%;
-font-family: 'Bebas Neue', cursive;
-
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 .sidebar a {
+  display: block;
   color: black;
   padding: 16px;
   text-decoration: none;
-
 }
+
 .sidebar a.active {
-  background-color: #04aa6d;
+  font-family: 'Rubik Beastly', cursive;
+  font-size: 30px;
+  background-color: #9e06e8;
   color: white;
-  
 }
 
 .sidebar a:hover:not(.active) {
-  background: #555555;
+  background-color: #555;
   color: white;
- 
 }
+
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
-
 }
+
 @media screen and (max-width: 700px) {
- .sidebar {
-   width: 100%;
-   height: auto;
-   position: relative;
-
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-
-}
-@media screen and (max-width: 400px) {
   .sidebar {
-    text-align: center;
-    float: none;
+      width: 100%;
+      height: auto;
+      position: relative;
   }
-  
+
+  .sidebar a {
+      float: left;
+  }
+
+  div.content {
+      margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+      text-align: center;
+      float: none;
+  }
 }

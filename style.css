@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
 
 .footer {
@@ -25,7 +24,7 @@ h2{
 }
 
 body{
-  margin: 5px;
+  margin: 0;
   font-family: "Lato", sans-serif;
 }
 button{

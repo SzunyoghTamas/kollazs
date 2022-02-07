@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
 .content{
     width:fit-content;
     margin-left: auto;
@@ -30,6 +34,40 @@ p{
 img:hover + p {
     font-size: xx-large;
 }
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blueviolet;
+   color: white;
+   text-align: center;
+}
+
+h1{
+  font-family: 'Island Moments', cursive;
+  font-size: 80px;
+  color: blueviolet;
+}
+
+h2{
+  color: green;
+}
+
+body{
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+button{
+    border-radius: 25px;
+    background-color: darkcyan;
+}
+a{
+  color: aqua;
+  text-decoration: none;
+}
 .sidebar {
   margin: 0;
   padding: 0;
@@ -58,6 +96,13 @@ img:hover + p {
   background-color: #555;
   color: white;
 }
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
 @media screen and (max-width: 700px) {
   .sidebar {
       width: 100%;

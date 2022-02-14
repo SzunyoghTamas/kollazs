@@ -59,6 +59,7 @@ h2{
 body{
   margin: 0;
   font-family: "Lato", sans-serif;
+    text-align: center;
 }
 button{
     border-radius: 25px;

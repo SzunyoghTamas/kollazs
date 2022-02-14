@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+    background-image: url(https://images8.alphacoders.com/644/thumb-1920-644361.jpg);
+    
+}
+h1 {
+    color: aliceblue;
+    font-family: 'Island Moments', cursive;
+    font-size: 120px; 
+    text-align: center;
+}
+p{
+    font-size: 34px;
+    color: aliceblue;
+}
+h2 {
+    font-size: 44px;
+    color: blanchedalmond;
+
+}
+button{
+    font-size: 80px;
+    color: crimson;
+    text-align: center;
+}

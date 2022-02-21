@@ -24,7 +24,7 @@ h2{
 }
 
 body{
-  margin: 0;
+  margin: auto;
   font-family: "Lato", sans-serif;
    text-align: center;
 }
@@ -37,7 +37,7 @@ a{
   text-decoration: none;
 }
 .sidebar {
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;

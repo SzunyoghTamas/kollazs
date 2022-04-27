@@ -1,86 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <title>SP oldala</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Pizza Rendelés</title>
+    <link rel="stylesheet" href="pizza.css">
 </head>
-
 <body>
 
-    <div class="sidebar">
-        <a  href="https://szunyoghtamas.github.io/kollazs">RÓLAM</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/keplink.html">KÉPLINK</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/listak.html">LISTÁK</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/orarend.html">ÓRAREND</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/evszakok.html">ÉVSZAKOK</a>
-        <a class="active" href="https://szunyoghtamas.github.io/kollazs/urlap.html">ŰRLAP</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/Informatika és távközlési alapok I. Héczei_Ádám.pdf" target=_blank>TÁVKÖZLÉS</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/alapmuv.html" target=_blank>SZÁMOLÓ</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/gomb.html" target=_blank>REGISZTRÁCIÓ</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/input_to_output.html" target=_blank>MÁSOL</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/pita.html" target=_blank>PITAGORASZ</a>
-        <a href="https://szunyoghtamas.github.io/kollazs/webshop.html" target=_blank>WiFi</a>
-    </div>
+    <h1>Pizza Rendelés</h1>
+    <h2>Vevő adatai:</h2> 
+        <p>Név:</p>
+        <p><input type='text'></p>
+        <p>Lakcím:</p>
+        <p><input type='text'></p>
+        <p>Telefonszám:</p>
+        <p><input type='number'></p>
 
-    <div class="content">
 
-        <form name="rendeles">
-            <h1>Pizza Rendelés</h1>
-            <fieldset>
-                <legend>Vevő adatai:</legend>
-                <p><label>Név: <input type="text" name="nev">
-                        <small>Vezetéknév Keresztnév</small></label></p>
-                <p><label>Telefon: <input type="tel" name="telefon" size="10"></label></p>
-            </fieldset>
-            <fieldset>
-                <legend>Pizza mérete</legend>
-                <p><label><input type="radio" name="meret" value="kicsi">kicsi</label></p>
-                <p><label><input type="radio" name="meret" value="nagy">nagy</label></p>
-            </fieldset>
-            <fieldset>
-                <legend>Feltétek</legend>
-                <p><label><input type="checkbox" name="feltet1" value="sonka">sonka</label></p>
-                <p><label><input type="checkbox" name="feltet2" value="sajt">sajt</label></p>
-                <p><label><input type="checkbox" name="feltet3" value="gomba">gomba</label></p>
-            </fieldset>
-            <fieldset>
-                <legend>Végezetül</legend>
-                <p><label>mennyiség: <input type="number" name="mennyiseg"> db</label></p>
-                <p><label>egyéb kívánságok: <textarea name="egyeb"></textarea></label></p>
-                <p><label>Kért szállítási idő: <input type="time" name="kiszallitas"></label></p>
-                <br>
-                <input type="reset" name="visszaallitas">
-                <input type="submit" name="kuldes">
-            </fieldset>
-        </form>
-    </div>
-
-    <div class="footer">
-        <p>SP Copyright © </p>
-    </div>
-
+    
+    <h2>Válassz Méretet:</h2>
+            <select>
+                <option>---Válassz!--- </option>
+                <option>26cm</option>
+                <option>32cm</option>
+                <option>52cm</option>
+            
+              </select>
+        </p>
+    </p>
+    
+   <h2>Feltétek</h2>
+            <p>
+        </p>
+        <p>    <input type='checkbox'> sajt</p>
+        <p>    <input type='checkbox' > sonka</p>
+        <p>    <input type='checkbox'> gomba</p>
+        <p>    <input type='checkbox' > ananász</p>
+        <p>    <input type='checkbox' > tejfölös</p>
+        <p>    <input type='checkbox' > feta sajt</p>
+        <p></p></p>
+        <button>
+            <a href="thanks.html">Megrendelem!</a>
+        </button>
 </body>
-
 </html>

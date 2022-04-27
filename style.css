@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Mochiy+Pop+P+One&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Rubik+Beastly&display=swap');
+ fieldset {
+ width: 400px;
+}
 
 .footer {
    position: fixed;
@@ -24,9 +27,8 @@ h2{
 }
 
 body{
-  margin: auto;
+  margin: 0;
   font-family: "Lato", sans-serif;
-   text-align: center;
 }
 button{
     border-radius: 25px;
@@ -37,7 +39,7 @@ a{
   text-decoration: none;
 }
 .sidebar {
-  margin: auto;
+  margin: 0;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
@@ -74,7 +76,7 @@ div.content {
 @media screen and (max-width: 700px) {
   .sidebar {
       width: 100%;
-      
+      height: auto;
       position: relative;
   }
 
